@@ -1,0 +1,13 @@
+# exclude
+*
+
+# include
+!src
+!src/**
+!tests
+!tests/**
+!.gitignore
+!.eslintrc.json
+!package.json
+!package-lock.json
+!README.md

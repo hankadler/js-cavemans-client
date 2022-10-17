@@ -1,0 +1,34 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "mocha": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": ["@emotion"],
+  "rules": {
+    "no-console": "off",
+    "comma-dangle": "off",
+    "no-underscore-dangle": "off",
+    "quotes": ["error", "double"],
+    "func-names": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": "off",
+    "no-nested-ternary": "off",
+    "import/prefer-default-export": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-array-index-key": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/label-has-associated-control": "off"
+  }
+}
