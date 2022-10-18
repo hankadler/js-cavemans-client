@@ -1,6 +1,6 @@
 {
   "name": "cavemans-client",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "keywords": [],
   "bugs": "https://github.com/hankadler/js-cavemans-client/issues",
@@ -13,9 +13,7 @@
     "type": "patreon",
     "url": "https://www.patreon.com/user?u=80437116"
   },
-  "proxy": "http://localhost:3000",
   "source": "src/index.html",
-  "main": "src/index.js",
   "type": "module",
   "repository": {
     "type": "git",
@@ -61,8 +59,5 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "process": "^0.11.10",
     "typescript": "^4.8.4"
-  },
-  "engines": {
-    "node": ">=12"
   }
 }
