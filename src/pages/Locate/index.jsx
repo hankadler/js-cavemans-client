@@ -21,7 +21,7 @@ export default function Locate() {
       <h1>Caveman&apos;s Near You</h1>
       <iframe
         title="steakhouse-near-me"
-        src={`http://maps.google.com/maps?q=${latitude},${longitude}&z=16&output=embed`}
+        src={`https://maps.google.com/maps?q=${latitude},${longitude}&z=16&output=embed`}
         width="100%"
         height="100%"
         style={{ border: 0, borderRadius: ".5em" }}
